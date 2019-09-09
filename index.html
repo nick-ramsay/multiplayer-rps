@@ -32,21 +32,30 @@
         <div class="container">
             <div id="playerOneContainer" class="col-md-12 m-2 p-2" align="center">
                 <h3>Player One</h3>
-                <div id="playerOneImgContainer"></div>
                 <div id="playerOneControls" class="col-md-12">
                 </div>
             </div>
             <div id="gameStatsContainer" class="col-md-12 m-2 p-2" align="center">
                 <h4>Game Stats</h4>
                 <div class="row">
-                    <div id="gameMessage" class="col-md-4"></div>
-                    <div class="col-md-4"><p>Player One:</p><span id="playerOneScore"></span></div>
-                    <div class="col-md-4"><p>Player Two:</p><span id="playerTwoScore"></span></div>
+                    <div id="playerOneImgContainer" class="col-md-3"></div>
+                    <div id="playerTwoImgContainer" class="col-md-3 .offset-md-3"></div>
+                </div>
+                <div class="row">
+                    <div id="gameMessage" class="col-md-3"></div>
+                    <div class="col-md-3">
+                        <p>Player One Score</p><span id="playerOneScore"></span>
+                    </div>
+                    <div class="col-md-3">
+                        <p>Player Two Score</p><span id="playerTwoScore"></span>
+                    </div>
+                    <div class="col-md-3">
+                        <p>Ties</p><span id="tieCount"></span>
+                    </div>
                 </div>
             </div>
             <div id="playerTwoContainer" class="col-md-12 m-2 p-2" align="center">
                 <h3>Player Two</h3>
-                <div id="playerTwoImgContainer"></div>
                 <div id="playerTwoControls" class="col-md-12"></div>
             </div>
         </div>
